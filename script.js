@@ -1,4 +1,4 @@
-// Funções para rolagem suave
+
 document.querySelector('.lista li a[href="#contato"]').addEventListener('click', function(event) {
     event.preventDefault();
     const contatoSection = document.getElementById('contato');
