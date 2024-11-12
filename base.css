@@ -1,13 +1,21 @@
 body {
-    background-color:#F4F5EF;
+    background-color: #F4F5EF;
     display: grid;
     place-items: center;
-    
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+
 header {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 #imglogo {
     width: 300px;
@@ -17,6 +25,9 @@ header {
 ul{
     list-style-type: none;
     display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
 }
 
 .logo {
@@ -125,6 +136,7 @@ input {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 60px; 
     margin-top: 100px;
+    background-color: white;
 }
 
 .whatsapp-icon {
@@ -195,4 +207,6 @@ footer .copyright {
     color: #aaa; 
     margin: 0; 
 }
+
+/*responsividade*/
 
